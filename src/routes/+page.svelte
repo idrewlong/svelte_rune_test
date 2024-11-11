@@ -1,3 +1,14 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+import Counter from "$lib/counter.svelte";
+import ExEffect from "$lib/ex_effect.svelte";
+import ExState from "$lib/ex_state.svelte";
+import Todo from "$lib/todo.svelte";
+</script>
+
+<div class="flex flex-col justify-center items-center min-h-screen space-y-8">
+<ExState/>
+<ExEffect/>
+<Counter/>
+<Todo/>
+</div>
+
